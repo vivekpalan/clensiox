@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+html,body{
+    width: 100%;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14.5px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    padding: 10px 5vmax;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+}
+.navlinks{
+    gap: 25px;
+}
+
+/* Hero__section */
+.hero__section{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url('./img/Slide2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+.hero__section .black__screen{
+    width: 100%;
+    height: 100%;
+    opacity: 0.55;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #000;
+    
+}
+.hero__section .content1{
+    width: 100%;
+    height: 100%;
+    gap: 8px;
+    z-index: 10;
+}
+.hero__section .content1 button{
+    padding: 0.65rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #35d0b1;
+    color: #fff;
+}
+
+/* About us section */
+.about__us{
+    width: 100%;
+    height: 100vh;
+    gap: 50px;
+}
+.about__us .img__container{
+    width: 50%;
+    height: 60%;
+}
+.about__us .img__container img{
+    width: 60%;
+}
+.about__us .content2{
+    width: 50%;
+    padding: 30px;
+    gap: 10px;
+}
